@@ -2,7 +2,7 @@ import Profile from "@/components/component/profile";
 import Separator from "@/components/component/separator";
 import ThemeToggle from "@/components/component/theme-toggle";
 
-import Macintosh from "@/public/macintosh.webp";
+import Macfolio from "@/public/macfolio.webp";
 import Nextbase from "@/public/nextbase.webp";
 import { ArrowUp } from "lucide-react";
 import Image from "next/image";
@@ -48,16 +48,16 @@ export default function Home() {
             animated
             textName="group-hover:text-indigo-400"
             borderName="bg-indigo-500"
-            link="https://msaf-compactfolio.vercel.app"
+            link="https://compact.msaf.tech"
           />
           <Separator
-            leftItem="macintosh"
+            leftItem="macfolio"
             rightItem="get this template"
             variant="primary"
             animated
             textName="group-hover:text-primary"
             borderName="bg-primary"
-            link="https://msaf-macintosh.vercel.app"
+            link="https://mac.msaf.tech"
           />
           <Separator
             leftItem="@msafdev"
@@ -84,17 +84,17 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-y-3 md:gap-x-4">
             <div className="flex flex-col gap-y-1.5">
               <Image
-                src={Macintosh}
-                alt="macintosh"
+                src={Macfolio}
+                alt="macfolio"
                 className="border-2 rounded-2xl bg-accent p-4 object-scale-down aspect-[4/3]"
               />
               <Link
-                href={"https://msaf-macintosh.vercel.app"}
+                href={"https://mac.msaf.tech"}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground font-medium text-center text-xs md:text-sm"
               >
-                Macintosh <ArrowUp size={14} className="inline rotate-45" />
+                Macfolio <ArrowUp size={14} className="inline rotate-45" />
               </Link>
             </div>
             <div className="flex flex-col gap-y-1.5">
@@ -151,7 +151,7 @@ export default function Home() {
             variant="primary"
           />
           <Separator leftItem="launch compactfolio" rightItem="done" />
-          <Separator leftItem="launch macintosh" rightItem="done" />
+          <Separator leftItem="launch macfolio" rightItem="done" />
         </div>
         {/* Footer */}
         <div className="flex flex-col gap-y-1.5 w-full">
