@@ -32,16 +32,23 @@ const Separator = ({
   };
 
   return (
-    <div className={cn(`w-full flex items-center gap-x-2 md:gap-x-4 group`, className)}>
-      <h3
-        className={cn(
-          `font-medium text-xs md:text-sm anim text-left`,
-          textClass[variant],
-          animated && textName
-        )}
-      >
-        {leftItem}
-      </h3>
+    <div
+      className={cn(
+        `w-full flex items-center gap-x-2 md:gap-x-4 group`,
+        className
+      )}
+    >
+      {leftItem && (
+        <h3
+          className={cn(
+            `font-medium text-xs md:text-sm anim text-left`,
+            textClass[variant],
+            animated && textName
+          )}
+        >
+          {leftItem}
+        </h3>
+      )}
       <div className={cn(`w-auto grow h-[1px] relative`, borderClass[variant])}>
         <div
           className={cn(
@@ -50,25 +57,27 @@ const Separator = ({
           )}
         />
       </div>
-      <h3
-        className={cn(
-          `anim-slow font-medium text-xs md:text-sm text-right`,
-          textClass[variant],
-          animated && textName
-        )}
-      >
-        {link ? (
-          <Link
-            href={link.startsWith("http") ? link : `https://${link}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {rightItem}
-          </Link>
-        ) : (
-          rightItem
-        )}
-      </h3>
+      {rightItem && (
+        <h3
+          className={cn(
+            `anim-slow font-medium text-xs md:text-sm text-right`,
+            textClass[variant],
+            animated && textName
+          )}
+        >
+          {link ? (
+            <Link
+              href={link.startsWith("http") ? link : `https://${link}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {rightItem}
+            </Link>
+          ) : (
+            rightItem
+          )}
+        </h3>
+      )}
     </div>
   );
 };
