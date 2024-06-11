@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+[![Vercel Deploy](https://deploy-badge.vercel.app/vercel/msaf-compactfolio)](https://msaf-compactfolio)
+[![License](https://img.shields.io/github/license/msafdev/compactfolio)](https://github.com/msafdev/compactfolio/blob/main/LICENSE.txt)
+[![Issues](https://img.shields.io/github/issues/msafdev/compactfolio)](https://github.com/msafdev/compactfolio/issues)
+[![GitHub Repo stars](https://img.shields.io/github/stars/msafdev/compactfolio?style=flat&color=yellow)](https://github.com/msafdev/compactfolio/stargazers)
 
-## Getting Started
+## 🤏 Compactfolio
 
-First, run the development server:
+![Image](https://raw.githubusercontent.com/msafdev/compactfolio/main/public/cover.png)
+
+A compacted portfolio template. Build for developers who love minimalistic design and simple interactivity. Use this template to create your own portfolio.
+
+🔗 [compactfolio](https://compact.msaf.tech)
+
+### 🛠️ Stack
+
+- Next.js
+- Tailwind CSS
+- Shacn-ui
+- Vercel
+
+### 🚀 Usage
+
+To use this template, install the dependencies and run the development server.
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🚦 To Do
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [x] Add CI/CD pipeline
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 📝 Contribute
 
-## Learn More
+If you want to contribute to this project, you can fork this repository and make a pull request.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### Don't forget to leave a ⭐️
