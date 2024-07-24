@@ -5,7 +5,7 @@
 
 ## 🤏 Compactfolio
 
-![Image](https://raw.githubusercontent.com/msafdev/compactfolio/main/public/cover.png)
+![Image](https://raw.githubusercontent.com/msafdev/compactfolio/main/cover.png)
 
 A compacted portfolio template. Build for developers who love minimalistic design and simple interactivity. Use this template to create your own portfolio.
 
