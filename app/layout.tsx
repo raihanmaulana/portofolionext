@@ -8,9 +8,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Compactfolio",
-  description:
-    "A very compacted portfolio template. Built with Next.js, Tailwind CSS, and TypeScript by @msafdev. Inspired by Compactfolio Framer Template.",
+  title: "Portofolio Raihan Maulana",
+  description: "Portofolio Web For Raihan Maulana Projects",
 };
 
 export default function RootLayout({

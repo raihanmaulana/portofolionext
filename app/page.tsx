@@ -81,7 +81,7 @@ export default function Home() {
             <div className="flex flex-col gap-y-1.5">
               <Image
                 src={SIKPB}
-                alt="macfolio"
+                alt="sikpb"
                 className="border-2 rounded-2xl bg-accent p-4 object-scale-down aspect-[4/3]"
               />
               <Link
@@ -96,7 +96,7 @@ export default function Home() {
             <div className="flex flex-col gap-y-1.5">
               <Image
                 src={Blank}
-                alt="macfolio"
+                alt="sikpb"
                 className="border-2 rounded-2xl bg-accent p-4 object-scale-down aspect-[4/3]"
               />
               <Link
